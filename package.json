@@ -1,0 +1,26 @@
+{
+  "name": "typescript-block-chain",
+  "version": "1.0.0",
+  "description": "Learning to TypeScript making the Block chain",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rootjang92/TypeScript-block-chain.git"
+  },
+  "author": "Jang <janggeunho7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rootjang92/TypeScript-block-chain/issues"
+  },
+  "homepage": "https://github.com/Rootjang92/TypeScript-block-chain#readme",
+  "devDependencies": {
+    "tsc-watch": "^1.1.37"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.3.3"
+  }
+}
